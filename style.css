@@ -1,402 +1,354 @@
-@font-face
-{
-    font-family: Avenir LT;
-    src: url("./Avenir.ttf");
+@font-face {
+  font-family: Avenir LT;
+  src: url("./Avenir.ttf");
 }
-html
-{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: white;   
-    /* outline: 1px solid blue; */
+body {
+  width: fit-content;
 }
-.space
-{
-    width: 100vw;
-    height: 200px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  /* outline: 1px solid blue; */
 }
-.orange
-{
-    color:#eb7768;
+.space {
+  width: 100vw;
+  height: 200px;
 }
-.container
-{
-    /* padding: 0 40px;
+.orange {
+  color: #eb7768;
+}
+.container {
+  /* padding: 0 40px;
     margin: 0 40px; */
 }
 /* -----------------------------MAIN------------------------------------ */
-.main
-{
-    height: 100vh;
-    background-color: #292828;   
-    /* display: none; */
+.main {
+  min-height: 100vh;
+  background-color: #292828;
+  /* display: none; */
 }
 
-.heading
-{
-    font-family: Avenir LT;
-    padding: 2rem 0 0 0;
-    width: 100%;
-    
-    text-align: center;
+.heading {
+  font-family: Avenir LT;
+  padding: 2rem 0 0 0;
+  width: 100%;
+
+  text-align: center;
 }
-.heading h2
-{
-    font-size: 3rem;
-    letter-spacing: 0.35rem;
-    color:#eb7768;
-    font-weight: 100;
+.heading h2 {
+  font-size: 3rem;
+  letter-spacing: 0.35rem;
+  color: #eb7768;
+  font-weight: 100;
 }
 
-.tagandText
-{
-    margin-top: 150px;
-    text-align: center;
-    font-size: 1.5rem;
+.tagandText {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 1.5rem;
 }
-.tag h2
-{
-    font-size: 1.4rem;
-    font-family: Roboto,sans-serif;
-    font-weight: normal;
-    letter-spacing: 0.15rem;
+.tag h2 {
+  font-size: 1.4rem;
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.15rem;
 }
-.animationText
-{
-    margin-top: 0.8rem;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-
+.animationText {
+  margin-top: 0.8rem;
+  height: 50px;
+  display: flex;
+  justify-content: center;
 }
-.animationText h2{
-    font-family: Saira;
-    letter-spacing: 0.2rem;
-    color:#eb7768;
-    font-weight: normal;
-    text-align: center !important;
-    padding-left: 1rem;
-    /* border: 1px red solid; */
+.animationText h2 {
+  font-family: Saira;
+  letter-spacing: 0.2rem;
+  color: #eb7768;
+  font-weight: normal;
+  text-align: center !important;
+  padding-left: 1rem;
+  /* border: 1px red solid; */
 }
 
-.headline
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 5.5rem;
-    text-align: center;
-    /* width: 500px; */
+.headline {
+  display: flex;
+  justify-content: center;
+  margin-top: 5.5rem;
+  text-align: center;
+  /* width: 500px; */
 }
-.headline h1
-{
-    font-family: Saira,sans-serif;
-    width: 90%;
-    font-weight: normal;
-    font-size: 1.6rem;
-    letter-spacing: 0.2rem;
+.headline h1 {
+  font-family: Saira, sans-serif;
+  width: 90%;
+  font-weight: normal;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
 }
-.prom{
-    width: 100%;
-    font-size: 2.8rem;
+.prom {
+  width: 100%;
+  font-size: 2.8rem;
 }
-.linkText
-{
-    margin-top: 4rem;
-    text-align: center;
-
+.linkText {
+  margin-top: 4rem;
+  text-align: center;
 }
-.linkText h4
-{
-    font-size: 1.2rem;
-    letter-spacing: 0.2rem;
-    font-weight: 100;
-    font-family: Saira;
+.linkText h4 {
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 100;
+  font-family: Saira;
 }
-.downBtn
-{
-    margin-top: 1rem;
+.downBtn {
+  margin-top: 1rem;
 }
-.downBtn a
-{
-    width: 40px;
-    margin: auto;
-    display: block;
-    font-size: 2rem;
+.downBtn a {
+  width: 40px;
+  margin: auto;
+  display: block;
+  font-size: 2rem;
 }
-.downBtn  i{ 
-    color:#eb7768 !important;
+.downBtn i {
+  color: #eb7768 !important;
 }
 
 /* -----------------------------END OF MAIN------------------------------------ */
 /* -----------------------------RELAY ADVANTAGE ------------------------------------ */
-.advantage
-{
-    height: 100vh;
-    background-color: #292828;
+.advantage {
+  min-height: 100vh;
+  background-color: #292828;
 }
-.header
-{
-    font-family: Avenir LT;
-    padding: 2rem 0 0 0;
-    width: 100%;
-    
-    text-align: center;
-}
-.header h2
-{
-    font-size: 3rem;
-    letter-spacing: 0.35rem;
-    /* color:#fc644f; */
-    color: white;
-    font-weight: 100;
- 
-}
-.subheader
-{
-    /* display: block; */
-  
-    margin-top: 1rem;
-    text-align: center;
- 
-}
-.subheader h2
-{
-    font-size: 1.4rem;
-    font-family: Saira;
-    letter-spacing: 0.1rem;
-    font-weight: normal;
-}
-.sliderWrapper
-{
-    display: flex;
-    margin-top: 3rem;
-    justify-content: space-around;
+.header {
+  font-family: Avenir LT;
+  padding: 2rem 0 0 0;
+  width: 100%;
 
+  text-align: center;
 }
-.textRow
-{
-    
-    margin: 1rem 0 2rem 4rem;
-    width: 70%;
-    padding: 1.2rem;
-    border-radius: 2rem;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    
-   
+.header h2 {
+  font-size: 3rem;
+  letter-spacing: 0.35rem;
+  /* color:#fc644f; */
+  color: white;
+  font-weight: 100;
+}
+.subheader {
+  /* display: block; */
 
+  margin-top: 1rem;
+  text-align: center;
 }
-.activeRow{
-    background-color: #5E5E5E;
-    display: flex;
-    flex-direction: column;
-    
+.subheader h2 {
+  font-size: 1.4rem;
+  font-family: Saira;
+  letter-spacing: 0.1rem;
+  font-weight: normal;
 }
-.activeRow h2
-{
-    color: white !important;
-    align-self: flex-start;
-    padding-bottom: 1rem;
-
-
-
+.sliderWrapper {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-around;
 }
-.textRow h2{
-    padding: 0.6rem 0rem;
-    color: black;
-    font-weight: normal;
-    font-family: Roboto;
-    letter-spacing: 0.09rem;
-    margin-bottom: 0rem;
-    
+.textRow {
+  margin: 1rem 0 2rem 4rem;
+  width: 70%;
+  padding: 1.2rem;
+  border-radius: 2rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
 }
-.textRow p{
-    font-family: Roboto;
-    
+.activeRow {
+  background-color: #5e5e5e;
+  display: flex;
+  flex-direction: column;
+}
+.activeRow h2 {
+  color: white !important;
+  align-self: flex-start;
+  padding-bottom: 1rem;
+}
+.textRow h2 {
+  padding: 0.6rem 0rem;
+  color: black;
+  font-weight: normal;
+  font-family: Roboto;
+  letter-spacing: 0.09rem;
+  margin-bottom: 0rem;
+}
+.textRow p {
+  font-family: Roboto;
 }
 
-.left
-{
-    width: 100%;
+.left {
+  width: 100%;
 }
-.right
-{     
-    width: 80%;
-    margin-right: 2rem;
-    object-fit: cover;
-    
+.right {
+  width: 80%;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  object-fit: cover;
 }
-.right img{
-    
-    height: 100%;
-    width: 100%;
+.right img {
+  height: 100%;
+  width: 100%;
 }
 /* -----------------------------END OF RELAY ADVANTAGE ------------------------------------ */
 /* -----------------------------RELAY TRACKS ------------------------------------ */
-.tracks
-{
-    height: 100vh;
-    background-color: #fff;
+.tracks {
+  height: 100vh;
+  background-color: #fff;
 }
-.headerWhite
-{
-    font-family: Avenir LT;
-    padding: 2rem 0 0 0;
-    width: 100%;
-    
-    text-align: center;
+.headerWhite {
+  font-family: Avenir LT;
+  padding: 2rem 0 0 0;
+  width: 100%;
+
+  text-align: center;
 }
-.headerWhite h2
-{
-    font-size: 3rem;
-    letter-spacing: 0.35rem;
-    /* color:#fc644f; */
-    color: #292828;
-    font-weight: 100;
- 
+.headerWhite h2 {
+  font-size: 3rem;
+  letter-spacing: 0.35rem;
+  /* color:#fc644f; */
+  color: #292828;
+  font-weight: 100;
 }
 
-.cardWrapper
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.cardWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.card img{
-    width: 100%;
+.card img {
+  width: 100%;
 }
 
 /* -----------------------------END OF RELAY TRACKS ------------------------------------ */
 
 /* -----------------------ANIMATIONS---------------------------- */
 .blink {
-    animation: blink 0.5s infinite;
+  animation: blink 0.5s infinite;
+}
+@keyframes blink {
+  to {
+    opacity: 0;
   }
-  @keyframes blink{
-    to { opacity: .0; }
-  }
-  .flex {
-      display: flex;
-  } 
-  .header-sub-title {
-    color: #fff;
- 
-  }
-
-  /* -----------------------MEDIA QUERIES---------------------------- */
-  @media only screen and (max-device-width : 1200px)
-  {
-      .prom{
-          font-size: 2.2rem;
-      }
-  }
-
-  @media only screen and (max-device-width : 910px)
-  {
-   .headline{ margin-top: 4rem;}
-  }
-  @media only screen and (max-device-width : 825px)
- { 
-     .container
-    {
-      padding: 0 15px;
-      margin: 0 15px;
-    }
-  
-     .heading h2{
-         font-size: 2.5rem;
-     }
-    .tagandText
-    {
-        margin-top: 100px;
-    }
-    .tag h2{
-        font-size: 1.2rem;
-    }
-    .animationText h2{
-        font-size: 2rem;
-    }
-    .headline h1{
-        font-size: 1.4rem;
-    }
-    .prom{
-        font-size: 2.2rem;
-    }
-
-  }
-  @media only screen and (max-device-width : 605px)
-  {
-    .container
-    {
-      padding: 0 0px;
-      margin: 0 0px;
-    }
-     .heading h2{
-         font-size: 2rem;
-     }
-    .tagandText
-    {
-        margin-top: 80px;
-    }
-    .tag h2{
-        font-size: 1rem;
-    }
-    .animationText h2{
-        font-size: 1.6rem;
-    }
-    .headline h1{
-        font-size: 1rem;
-    }
-    .prom{
-        font-size: 2.4rem;
-    }
-    .linkText
-{
-    margin-top: 2rem;
+}
+.flex {
+  display: flex;
+}
+.header-sub-title {
+  color: #fff;
 }
 
-.linkText h4{
+/* -----------------------MEDIA QUERIES---------------------------- */
+@media only screen and (max-device-width: 1200px) {
+  .prom {
+    font-size: 2.2rem;
+  }
+}
+
+@media only screen and (max-device-width: 910px) {
+  .headline {
+    margin-top: 4rem;
+  }
+}
+@media only screen and (max-device-width: 825px) {
+  .container {
+    padding: 0 15px;
+    margin: 0 15px;
+  }
+
+  .heading h2 {
+    font-size: 2.5rem;
+  }
+  .tagandText {
+    margin-top: 100px;
+  }
+  .tag h2 {
     font-size: 1.2rem;
-}
   }
-  @media only screen and (max-device-width : 553px)
-  {
-    .container
-    {
-      padding: 0 10px;
-      margin: 0 10px;
-    }
-     .heading h2{
-         font-size: 2rem;
-     }
-    .tagandText
-    {
-        margin-top: 80px;
-    }
-    .tag h2{
-        font-size: 1rem;
-    }
-    .animationText h2{
-        font-size: 1.6rem;
-    }
-    .headline h1{
-        font-size: 1rem;
-    }
-    .prom{
-        font-size: 1.4rem;
-    }
-    .linkText
-{
-    margin-top: 1.2rem;
+  .animationText h2 {
+    font-size: 2rem;
+  }
+  .headline h1 {
+    font-size: 1.4rem;
+  }
+  .prom {
+    font-size: 2.2rem;
+  }
 }
-
-.linkText h4{
+@media only screen and (max-device-width: 605px) {
+  .container {
+    padding: 0 0px;
+    margin: 0 0px;
+  }
+  .heading h2 {
+    font-size: 2rem;
+  }
+  .tagandText {
+    margin-top: 80px;
+  }
+  .tag h2 {
     font-size: 1rem;
-}
   }
+  .animationText h2 {
+    font-size: 1.6rem;
+  }
+  .headline h1 {
+    font-size: 1rem;
+  }
+  .prom {
+    font-size: 2.4rem;
+  }
+  .linkText {
+    margin-top: 2rem;
+  }
+
+  .linkText h4 {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-device-width: 553px) {
+  .container {
+    padding: 0 10px;
+    margin: 0 10px;
+  }
+  .heading h2 {
+    font-size: 2rem;
+  }
+  .tagandText {
+    margin-top: 80px;
+  }
+  .tag h2 {
+    font-size: 1rem;
+  }
+  .animationText h2 {
+    font-size: 1.6rem;
+  }
+  .headline h1 {
+    font-size: 1rem;
+  }
+  .prom {
+    font-size: 1.4rem;
+  }
+  .left {
+    display: none;
+  }
+  .right img {
+    height: unset;
+  }
+  .right {
+    margin-right: 0;
+  }
+  .linkText {
+    margin-top: 1.2rem;
+  }
+
+  .linkText h4 {
+    font-size: 1rem;
+  }
+}
