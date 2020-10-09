@@ -1,0 +1,128 @@
+@font-face
+{
+    font-family: Avenir LT;
+    src: url("./Avenir.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;   
+    /* outline: 1px solid blue; */
+}
+.orange
+{
+    color: #FF8615;
+}
+.container
+{
+    padding: 0 50px;
+    margin: 0 50px;
+}
+.main
+{
+    height: 100vh;
+    background-color: #292828;   
+}
+
+.heading
+{
+    font-family: Avenir LT;
+    padding: 1.5rem 0 0 0;
+    width: 100%;
+    
+    text-align: center;
+}
+.heading h2
+{
+    font-size: 3rem;
+    letter-spacing: 0.35rem;
+    color: #FF8615;
+    font-weight: 100;
+}
+
+.tagandText
+{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.tag h2
+{
+    font-family: Roboto,sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.15rem;
+}
+.animationText
+{
+    margin-top: 2rem;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+.animationText h2{
+    font-family: Saira;
+    letter-spacing: 0.2rem;
+    color: #FF8615;
+    font-weight: normal;
+    text-align: center !important;
+    padding-left: 1rem;
+    /* border: 1px red solid; */
+}
+
+.headline
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    text-align: center;
+    /* width: 500px; */
+}
+.headline h1
+{
+    font-family: Saira,sans-serif;
+    width: 90%;
+    font-weight: normal;
+    font-size: 2.4rem;
+    letter-spacing: 0.2rem;
+}
+.linkText
+{
+    margin-top: 3rem;
+    text-align: center;
+
+}
+.linkText h4
+{
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 100;
+    font-family: Saira;
+}
+.downBtn
+{
+    margin-top: 1rem;
+}
+.downBtn a
+{
+    display: block;
+    font-size: 2rem;
+}
+.downBtn  i{ 
+       color: #FF8615 !important;
+       
+}
+.blink {
+    animation: blink 0.5s infinite;
+  }
+  @keyframes blink{
+    to { opacity: .0; }
+  }
+  .flex {
+      display: flex;
+  } 
+  .header-sub-title {
+    color: #fff;
+ 
+  }
