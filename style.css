@@ -27,8 +27,8 @@ html
 }
 .container
 {
-    padding: 0 50px;
-    margin: 0 50px;
+    /* padding: 0 40px;
+    margin: 0 40px; */
 }
 /* -----------------------------MAIN------------------------------------ */
 .main
@@ -317,6 +317,41 @@ html
         font-size: 2.4rem;
     }
 
+  }
+  @media only screen and (max-device-width : 605px)
+  {
+    .container
+    {
+      padding: 0 0px;
+      margin: 0 0px;
+    }
+     .heading h2{
+         font-size: 2.2rem;
+     }
+    .tagandText
+    {
+        margin-top: 80px;
+    }
+    .tag h2{
+        font-size: 1rem;
+    }
+    .animationText h2{
+        font-size: 1.6rem;
+    }
+    .headline h1{
+        font-size: 1rem;
+    }
+    .prom{
+        font-size: 2.6rem;
+    }
+    .linkText
+{
+    margin-top: 2rem;
+}
+
+.linkText h4{
+    font-size: 1.2rem;
+}
   }
   @media only screen and (max-device-width : 553px)
   {
