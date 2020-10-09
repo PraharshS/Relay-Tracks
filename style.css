@@ -89,7 +89,7 @@ html
 {
     display: flex;
     justify-content: center;
-    margin-top: 8rem;
+    margin-top: 5.5rem;
     text-align: center;
     /* width: 500px; */
 }
@@ -287,3 +287,5 @@ html
     color: #fff;
  
   }
+
+  /* -----------------------MEDIA QUERIES---------------------------- */
