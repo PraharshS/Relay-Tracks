@@ -19,6 +19,7 @@
     padding: 0 50px;
     margin: 0 50px;
 }
+/* -----------------------------MAIN------------------------------------ */
 .main
 {
     height: 100vh;
@@ -28,7 +29,7 @@
 .heading
 {
     font-family: Avenir LT;
-    padding: 1.5rem 0 0 0;
+    padding: 2rem 0 0 0;
     width: 100%;
     
     text-align: center;
@@ -49,6 +50,7 @@
 }
 .tag h2
 {
+    font-size: 1.4rem;
     font-family: Roboto,sans-serif;
     font-weight: normal;
     letter-spacing: 0.15rem;
@@ -84,12 +86,15 @@
     font-family: Saira,sans-serif;
     width: 90%;
     font-weight: normal;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     letter-spacing: 0.2rem;
+}
+.prom{
+    font-size: 2.5rem;
 }
 .linkText
 {
-    margin-top: 3rem;
+    margin-top: 4rem;
     text-align: center;
 
 }
@@ -110,9 +115,14 @@
     font-size: 2rem;
 }
 .downBtn  i{ 
-       color: #FF8615 !important;
-       
+    color: #FF8615 !important;
 }
+
+/* -----------------------------END OF MAIN------------------------------------ */
+/* -----------------------------RELAY ADVANTAGE ------------------------------------ */
+/* -----------------------------END OF RELAY ADVANTAGE ------------------------------------ */
+
+/* -----------------------ANIMATIONS---------------------------- */
 .blink {
     animation: blink 0.5s infinite;
   }
