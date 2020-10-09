@@ -102,6 +102,7 @@ html
     letter-spacing: 0.2rem;
 }
 .prom{
+    width: 100%;
     font-size: 3rem;
 }
 .linkText
