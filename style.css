@@ -27,8 +27,8 @@ html
 }
 .container
 {
-    /* padding: 0 50px;
-    margin: 0 50px; */
+    padding: 0 50px;
+    margin: 0 50px;
 }
 /* -----------------------------MAIN------------------------------------ */
 .main
@@ -290,7 +290,13 @@ html
 
   /* -----------------------MEDIA QUERIES---------------------------- */
   @media only screen and (max-device-width : 825px)
-  {
+ { 
+     .container
+    {
+      padding: 0 15px;
+      margin: 0 15px;
+    }
+  
      .heading h2{
          font-size: 2.5rem;
      }
@@ -314,6 +320,11 @@ html
   }
   @media only screen and (max-device-width : 553px)
   {
+    .container
+    {
+      padding: 0 10px;
+      margin: 0 10px;
+    }
      .heading h2{
          font-size: 2.2rem;
      }
@@ -328,7 +339,7 @@ html
         font-size: 1.6rem;
     }
     .headline h1{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .prom{
         font-size: 2.0rem;
@@ -338,4 +349,7 @@ html
     margin-top: 1.2rem;
 }
 
+.linkText h4{
+    font-size: 1rem;
+}
   }
