@@ -290,6 +290,11 @@ html
   }
 
   /* -----------------------MEDIA QUERIES---------------------------- */
+
+  @media only screen and (max-device-width : 910px)
+  {
+   .headline{ margin-top: 4rem;}
+  }
   @media only screen and (max-device-width : 825px)
  { 
      .container
