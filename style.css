@@ -6,6 +6,8 @@
 html
 {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    
 }
 *{
     margin: 0;
@@ -14,9 +16,14 @@ html
     color: white;   
     /* outline: 1px solid blue; */
 }
+.space
+{
+    width: 100vw;
+    height: 200px;
+}
 .orange
 {
-    color:#F15D34;
+    color:#fc644f;
 }
 .container
 {
@@ -43,7 +50,7 @@ html
 {
     font-size: 3rem;
     letter-spacing: 0.35rem;
-    color:#F15D34;
+    color:#fc644f;
     font-weight: 100;
 }
 
@@ -62,7 +69,7 @@ html
 }
 .animationText
 {
-    margin-top: 2rem;
+    margin-top: 0.8rem;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -71,7 +78,7 @@ html
 .animationText h2{
     font-family: Saira;
     letter-spacing: 0.2rem;
-    color:#F15D34;
+    color:#fc644f;
     font-weight: normal;
     text-align: center !important;
     padding-left: 1rem;
@@ -91,11 +98,11 @@ html
     font-family: Saira,sans-serif;
     width: 90%;
     font-weight: normal;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     letter-spacing: 0.2rem;
 }
 .prom{
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 .linkText
 {
@@ -122,7 +129,7 @@ html
     font-size: 2rem;
 }
 .downBtn  i{ 
-    color:#F15D34 !important;
+    color:#fc644f !important;
 }
 
 /* -----------------------------END OF MAIN------------------------------------ */
@@ -144,7 +151,7 @@ html
 {
     font-size: 3rem;
     letter-spacing: 0.35rem;
-    /* color:#F15D34; */
+    /* color:#fc644f; */
     color: white;
     font-weight: 100;
  
@@ -231,6 +238,40 @@ html
     width: 100%;
 }
 /* -----------------------------END OF RELAY ADVANTAGE ------------------------------------ */
+/* -----------------------------RELAY TRACKS ------------------------------------ */
+.tracks
+{
+    height: 100vh;
+    background-color: #fff;
+}
+.headerWhite
+{
+    font-family: Avenir LT;
+    padding: 2rem 0 0 0;
+    width: 100%;
+    
+    text-align: center;
+}
+.headerWhite h2
+{
+    font-size: 3rem;
+    letter-spacing: 0.35rem;
+    /* color:#fc644f; */
+    color: #292828;
+    font-weight: 100;
+ 
+}
+
+.cardWrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.card img{
+    width: 100%;
+}
+
+/* -----------------------------END OF RELAY TRACKS ------------------------------------ */
 
 /* -----------------------ANIMATIONS---------------------------- */
 .blink {
