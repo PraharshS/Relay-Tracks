@@ -3,6 +3,10 @@
     font-family: Avenir LT;
     src: url("./Avenir.ttf");
 }
+html
+{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -24,6 +28,7 @@
 {
     height: 100vh;
     background-color: #292828;   
+    /* display: none; */
 }
 
 .heading
@@ -111,6 +116,8 @@
 }
 .downBtn a
 {
+    width: 40px;
+    margin: auto;
     display: block;
     font-size: 2rem;
 }
@@ -120,6 +127,109 @@
 
 /* -----------------------------END OF MAIN------------------------------------ */
 /* -----------------------------RELAY ADVANTAGE ------------------------------------ */
+.advantage
+{
+    height: 100vh;
+    background-color: #292828;
+}
+.header
+{
+    font-family: Avenir LT;
+    padding: 2rem 0 0 0;
+    width: 100%;
+    
+    text-align: center;
+}
+.header h2
+{
+    font-size: 3rem;
+    letter-spacing: 0.35rem;
+    /* color:#F15D34; */
+    color: white;
+    font-weight: 100;
+ 
+}
+.subheader
+{
+    /* display: block; */
+  
+    margin-top: 1rem;
+    text-align: center;
+ 
+}
+.subheader h2
+{
+    font-size: 1.4rem;
+    font-family: Saira;
+    letter-spacing: 0.1rem;
+    font-weight: normal;
+}
+.sliderWrapper
+{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+
+}
+.textRow
+{
+    
+    margin: 1rem 0 2rem 4rem;
+    width: 70%;
+    padding: 1.2rem;
+    border-radius: 2rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    
+   
+
+}
+.activeRow{
+    background-color: #5E5E5E;
+    display: flex;
+    flex-direction: column;
+    
+}
+.activeRow h2
+{
+    color: white !important;
+    align-self: flex-start;
+    padding-bottom: 1rem;
+
+
+
+}
+.textRow h2{
+    padding: 0.6rem 0rem;
+    color: black;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 0.09rem;
+    margin-bottom: 0rem;
+    
+}
+.textRow p{
+    font-family: Roboto;
+    
+}
+
+.left
+{
+    width: 100%;
+}
+.right
+{     
+    width: 80%;
+    margin-right: 2rem;
+    object-fit: cover;
+    
+}
+.right img{
+    
+    height: 100%;
+    width: 100%;
+}
 /* -----------------------------END OF RELAY ADVANTAGE ------------------------------------ */
 
 /* -----------------------ANIMATIONS---------------------------- */
