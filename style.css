@@ -12,7 +12,7 @@
 }
 .orange
 {
-    color: #FF8615;
+    color:#F15D34;
 }
 .container
 {
@@ -38,7 +38,7 @@
 {
     font-size: 3rem;
     letter-spacing: 0.35rem;
-    color: #FF8615;
+    color:#F15D34;
     font-weight: 100;
 }
 
@@ -66,7 +66,7 @@
 .animationText h2{
     font-family: Saira;
     letter-spacing: 0.2rem;
-    color: #FF8615;
+    color:#F15D34;
     font-weight: normal;
     text-align: center !important;
     padding-left: 1rem;
@@ -115,7 +115,7 @@
     font-size: 2rem;
 }
 .downBtn  i{ 
-    color: #FF8615 !important;
+    color:#F15D34 !important;
 }
 
 /* -----------------------------END OF MAIN------------------------------------ */
