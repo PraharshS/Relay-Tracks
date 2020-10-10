@@ -1,13 +1,30 @@
 var row = document.querySelector(".left");
 // row.children[1].classList.add("activeRow");
 // row.children[1].lastElementChild.classList.add("activeP");
-for (let index = 0; index < row.children.length; index++) {
-  setTimeout(() => {
-    row.children[index].classList.add("activeRow");
-    row.children[index].lastElementChild.classList.add("activeP");
-  }, 3000);
-}
+// for (let index = 0; index < row.children.length; index++) {
+//   setTimeout(() => {
+//     console.log(row.children[index]);
+//     // row.children[index].classList.add("activeRow");
+//     // row.children[index].lastElementChild.classList.add("activeP");
+//   }, 3000);
+// }
+let k = 1;
 
+setInterval(() => {
+  console.log(row.children[0]);
+  row.children[k].classList.add("activeRow");
+  row.children[k].lastElementChild.classList.add("activeP");
+  for (let i = 0; i < row.children.length; i++) {
+    if (i != k) {
+      row.children[i].classList.remove("activeRow");
+      row.children[i].lastElementChild.classList.remove("activeP");
+    }
+  }
+  k++;
+  if (k == 4) {
+    k = 0;
+  }
+}, 3300);
 // setInterval(() => {
 //   for (let index = 0; index < row.children.length; index++) {
 //     for (let j = 0; j < row.children.length; j++) {
