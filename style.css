@@ -110,6 +110,9 @@
     font-size: 1rem;
     text-align: center;
 }
+.block{
+    display: block;
+}
 .prom{
  
     color: #eb7768;
