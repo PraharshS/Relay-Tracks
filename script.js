@@ -29,12 +29,16 @@ $(".animationText").not(".slick-initialized").slick({
   vertical: true,
   slidesToShow: 1,
   slidesToScroll: 1,
+  adaptiveHeight: true,
+  // fade: true,
+  // centerMode: true,
+  // centerMargin: "30px",
   prevArrow: ".site-slider .slider-btn .prev",
   nextArrow: ".site-slider .slider-btn .next",
 });
 $(".site-slider").not(".slick-initialized").slick({
   autoplay: true,
-  autoplaySpeed: 3000,
+  autoplaySpeed: 4000,
   dots: true,
   slidesToShow: 1,
   slidesToScroll: 1,
