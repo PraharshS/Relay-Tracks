@@ -4,10 +4,13 @@
   }
   html {
     scroll-behavior: smooth;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
   }
-  body {
-    /* width: fit-content; */
+  /* body {
+    width: fit-content;
+  } */
+  img{
+      width: 100%;
   }
   * {
     margin: 0;
