@@ -519,13 +519,17 @@ max-width: 60%;
     {
         font-size: 4rem;
     }
+    .prom
+    {
+        margin-bottom: 0.5rem;
+    }
     .linkText
     {
-        margin-top: 4rem;
+        margin-top: 1rem;
 
     }
     .linkText h4{
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
     .downBtn a i{
         font-size: 2rem;
