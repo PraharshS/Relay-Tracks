@@ -1,354 +1,457 @@
 @font-face {
-  font-family: Avenir LT;
-  src: url("./Avenir.ttf");
+    font-family: Avenir LT,sans-serif;
+    src: url("./Avenir.ttf");
+  }
+  html {
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+  }
+  body {
+    width: fit-content;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    /* outline: 1px solid lightgoldenrodyellow; */
+    /* font-size: 67.5%; */
+  }
+  a,a:focus{
+    text-decoration: none;
+    color: white;
+  }
+  img{
+      width: 200px;
+      height: 200px;
+  }
+  .space
+  {
+      height: 100px;
+      width: 100%;
+      background-color: lightseagreen;
+  }
+  .container
+  {
+      padding: 0 10px;
+      margin: 0 10px;
+  }
+  .main
+{
+    height: 100vh;
+    /* width: 100vw; */
+    background-color: #292828;
 }
-html {
-  scroll-behavior: smooth;
-  overflow-x: hidden;
+.heading
+{
+    /* margin: 1.2rem 0; */
+    padding: 2.4rem 0;
+    text-align: center;
 }
-body {
-  width: fit-content;
+.heading h2
+{
+    font-family: Avenir LT;
+    font-weight: normal;
+    letter-spacing: 1px;
+    width: auto;
+    margin: auto;
+    font-size: 2rem;
+    color: #eb7768;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: white;
-  /* outline: 1px solid blue; */
-}
-.space {
-  width: 100vw;
-  height: 200px;
-}
-.orange {
-  color: #eb7768;
-}
-.container {
-  /* padding: 0 40px;
-    margin: 0 40px; */
-}
-/* -----------------------------MAIN------------------------------------ */
-.main {
-  min-height: 100vh;
-  background-color: #292828;
-  /* display: none; */
-}
+.tagandText
+{
+    margin-top: 3rem;
 
-.heading {
-  font-family: Avenir LT;
-  padding: 2rem 0 0 0;
-  width: 100%;
+}
+.tag{
+    margin-bottom: 0.8rem;
+}
+.tag h2{
+    color: #fff;
+    font-family: Roboto;
+    font-weight: normal;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 3px;
+}
+.animationText
+{
+    margin-top: 1rem;
+}
+.animationText h2{
+    font-family: Saira,sans-serif;
+    text-align: center;
+    font-weight: normal;
+    height: 40px;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    color: #eb7768;
+}
+.headline
+{
+    margin-top: 3rem;
+}
+.orange
+{
+    color: #eb7768;
+    height: 100px;
+}
+.headline h1{
+    color: #fff;
+    font-family: Saira;
+    font-size: 1rem;
+    text-align: center;
+}
+.prom{
+ 
+    color: #eb7768;
+    text-align: center;
+    height: 150px;
+}
+.prom h2{
+    font-size:  2rem;
+    font-family: Saira;
+    height: auto;
+}
+.linkText
+{
+    margin-top: 1rem;
+    height: 120px;
+    text-align: center;
+    
+}
+.linkText h4{
+    color: #fff;
+    font-family: Saira;
+    letter-spacing: 2px;
+  margin-bottom: 1.2em;
+ 
 
-  text-align: center;
 }
-.heading h2 {
-  font-size: 3rem;
-  letter-spacing: 0.35rem;
-  color: #eb7768;
-  font-weight: 100;
+.downBtn
+{
+width: 40px;
+margin: auto;
 }
+.downBtn  a 
+{
+    font-size: 2rem;
+   color: #eb7768;
+}
+/* -----------END OF MAIN ------------------- */
+.advantage{
+    height: 100vh;
+    background-color: #292828;
+}
+.header{
+    margin: 2rem 0;
+    /* margin-bottom: 2rem; */
+}
+.header h2{
+    padding: 2rem;
+    font-family: Avenir LT;
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+}
+.subheader
+{
+    margin: 2rem 0;
+}
+.subheader h2{
+    color: white;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: normal;
+    text-align: center;
+}
+ /* ------------------SLIDER -------------------- */
+ .slider-wrapper {
+    height: auto;
 
-.tagandText {
-  margin-top: 150px;
-  text-align: center;
-  font-size: 1.5rem;
-}
-.tag h2 {
-  font-size: 1.4rem;
-  font-family: Roboto, sans-serif;
-  font-weight: normal;
-  letter-spacing: 0.15rem;
-}
-.animationText {
-  margin-top: 0.8rem;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-}
-.animationText h2 {
-  font-family: Saira;
-  letter-spacing: 0.2rem;
-  color: #eb7768;
-  font-weight: normal;
-  text-align: center !important;
-  padding-left: 1rem;
-  /* border: 1px red solid; */
-}
+    margin-bottom: 3rem;
+  }
+  .site-slider {
+      border-radius: 2rem;
+    background: #5E5E5E;
+    position: relative;
+    height: 60vh;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 
-.headline {
-  display: flex;
-  justify-content: center;
-  margin-top: 5.5rem;
-  text-align: center;
-  /* width: 500px; */
-}
-.headline h1 {
-  font-family: Saira, sans-serif;
-  width: 90%;
-  font-weight: normal;
-  font-size: 1.6rem;
-  letter-spacing: 0.2rem;
-}
-.prom {
-  width: 100%;
-  font-size: 2.8rem;
-}
-.linkText {
-  margin-top: 4rem;
-  text-align: center;
-}
-.linkText h4 {
-  font-size: 1.2rem;
-  letter-spacing: 0.2rem;
-  font-weight: 100;
-  font-family: Saira;
-}
-.downBtn {
-  margin-top: 1rem;
-}
-.downBtn a {
-  width: 40px;
-  margin: auto;
-  display: block;
-  font-size: 2rem;
-}
-.downBtn i {
-  color: #eb7768 !important;
-}
 
-/* -----------------------------END OF MAIN------------------------------------ */
-/* -----------------------------RELAY ADVANTAGE ------------------------------------ */
-.advantage {
-  min-height: 100vh;
-  background-color: #292828;
-}
-.header {
-  font-family: Avenir LT;
-  padding: 2rem 0 0 0;
-  width: 100%;
+  }
+  .slide
+  {
+      /* display: flex;
+      flex-direction: column;
+      justify-content: space-between; */
+max-width: 80%;
 
-  text-align: center;
-}
-.header h2 {
-  font-size: 3rem;
-  letter-spacing: 0.35rem;
-  /* color:#fc644f; */
-  color: white;
-  font-weight: 100;
-}
-.subheader {
-  /* display: block; */
+  }
+ .img{
+      /* flex-basis: 75%; */
+      height: 55%;
+  }
+  .img img{
+      border-top-left-radius: 2rem;
+      border-top-right-radius: 2rem;
+      width: 100%;
+      height: 100%;
+    object-fit: cover;
+  }
+  
+  .slideText
+  {
+    height: 30%;
+        border-radius: 40%;
+  }
+  .slideText h2{
+      font-family: Roboto;
+      padding: 1rem 2rem;
+      color: white;
+      font-size: 1.5rem;
+      font-weight: normal;
+      text-align: left;
+     
+  }
+  .slideText p{
+      font-size: 1.2rem;
+      color: white;
+      padding: 0 2rem;
+      text-align: left;
+  }
 
-  margin-top: 1rem;
-  text-align: center;
-}
-.subheader h2 {
-  font-size: 1.4rem;
-  font-family: Saira;
-  letter-spacing: 0.1rem;
-  font-weight: normal;
-}
-.sliderWrapper {
-  display: flex;
-  margin-top: 3rem;
-  justify-content: space-around;
-}
-.textRow {
-  margin: 1rem 0 2rem 4rem;
-  width: 70%;
-  padding: 1.2rem;
-  border-radius: 2rem;
-  background-color: white;
-  display: flex;
-  align-items: center;
-}
-.activeRow {
-  background-color: #5e5e5e;
-  display: flex;
-  flex-direction: column;
-}
-.activeRow h2 {
-  color: white !important;
-  align-self: flex-start;
-  padding-bottom: 1rem;
-}
-.textRow h2 {
-  padding: 0.6rem 0rem;
-  color: black;
-  font-weight: normal;
-  font-family: Roboto;
-  letter-spacing: 0.09rem;
-  margin-bottom: 0rem;
-}
-.textRow p {
-  font-family: Roboto;
-}
+  
+  /* slick dots  */
+  .slick-dots {
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding: 0.5rem 0;
+    list-style-type: none;
 
-.left {
-  width: 100%;
-}
-.right {
-  width: 80%;
-  margin-right: 2rem;
-  margin-bottom: 2rem;
-  object-fit: cover;
-}
-.right img {
-  height: 100%;
-  width: 100%;
-}
-/* -----------------------------END OF RELAY ADVANTAGE ------------------------------------ */
-/* -----------------------------RELAY TRACKS ------------------------------------ */
-.tracks {
-  height: 100vh;
-  background-color: #fff;
-}
-.headerWhite {
-  font-family: Avenir LT;
-  padding: 2rem 0 0 0;
-  width: 100%;
 
-  text-align: center;
+  }
+  
+  .slick-dots li {
+    margin: 0 1rem;
+  }
+  
+  .slick-dots button {
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0;
+    border: none;
+    background-color: white;
+    text-indent: -99999px;
+    border-radius: 100%;
+  }
+  
+  .slick-dots .slick-active button {
+    transform: scale(2.5);
+    box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.205);
+  }
+   /* ------------------END OF SLIDER -------------------- */
+   
+/* -----------END OF RELAY ADVANTAGE ------------------- */
+.headerWhite{
+    margin: 2rem 0;
+    /* margin-bottom: 2rem; */
 }
-.headerWhite h2 {
-  font-size: 3rem;
-  letter-spacing: 0.35rem;
-  /* color:#fc644f; */
-  color: #292828;
-  font-weight: 100;
+.headerWhite h2{
+    padding: 2rem;
+    font-family: Avenir LT !important;
+    font-weight: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: #292828;
 }
-
 .cardWrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.card img {
-  width: 100%;
-}
-
-/* -----------------------------END OF RELAY TRACKS ------------------------------------ */
-
-/* -----------------------ANIMATIONS---------------------------- */
-.blink {
-  animation: blink 0.5s infinite;
-}
-@keyframes blink {
-  to {
-    opacity: 0;
-  }
-}
-.flex {
-  display: flex;
-}
-.header-sub-title {
-  color: #fff;
-}
-
-/* -----------------------MEDIA QUERIES---------------------------- */
-@media only screen and (max-device-width: 1200px) {
-  .prom {
-    font-size: 2.2rem;
-  }
-}
-
-@media only screen and (max-device-width: 910px) {
-  .headline {
-    margin-top: 4rem;
-  }
-}
-@media only screen and (max-device-width: 825px) {
-  .container {
-    padding: 0 15px;
-    margin: 0 15px;
-  }
-
-  .heading h2 {
-    font-size: 2.5rem;
-  }
-  .tagandText {
-    margin-top: 100px;
-  }
-  .tag h2 {
-    font-size: 1.2rem;
-  }
-  .animationText h2 {
-    font-size: 2rem;
-  }
-  .headline h1 {
-    font-size: 1.4rem;
-  }
-  .prom {
-    font-size: 2.2rem;
-  }
-}
-@media only screen and (max-device-width: 605px) {
-  .container {
-    padding: 0 0px;
-    margin: 0 0px;
-  }
-  .heading h2 {
-    font-size: 2rem;
-  }
-  .tagandText {
-    margin-top: 80px;
-  }
-  .tag h2 {
-    font-size: 1rem;
-  }
-  .animationText h2 {
-    font-size: 1.6rem;
-  }
-  .headline h1 {
-    font-size: 1rem;
-  }
-  .prom {
-    font-size: 2.4rem;
-  }
-  .linkText {
     margin-top: 2rem;
-  }
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 60px;
 
-  .linkText h4 {
+  }
+  .card
+  {
+    /* background-color: #5e5e5e; */
+    margin: 0 auto;
+    box-shadow: 4px 4px 4px black;
+    max-width: 600px;
+  }
+  .cardContent
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  
+  }
+  .cardText
+  {
+    padding: 1rem 0;
+   
+    text-align: center;
+  }
+  .cardText h2
+  {
+    font-size: 1,5rem;
+    font-family: Avenir,sans-serif;
+    margin-bottom: 0rem;
+    font-weight: normal;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+    color: black;
+    height: 50px;
+  }
+  .cardText p{
+    font-size: 1rem;
+    color: #292828;
+    font-family: Saira;
+    letter-spacing: 1px;
+    padding-bottom: 2rem;
+    height: 60px;
+  }
+  .card img {
+    width: 100%;
+    
+  }
+  
+  
+  .cardContent button
+  {
+    
+    text-align: center;
+    background-color: #eb7768;
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    
+  }
+  
+  .cardContent button a{
+    display: inline-block;
+    width: 100%;
     font-size: 1.2rem;
   }
-}
-@media only screen and (max-device-width: 553px) {
-  .container {
-    padding: 0 10px;
-    margin: 0 10px;
+  .image1{
+    padding-bottom: 0.5rem;
   }
-  .heading h2 {
-    font-size: 2rem;
-  }
-  .tagandText {
-    margin-top: 80px;
-  }
-  .tag h2 {
-    font-size: 1rem;
-  }
-  .animationText h2 {
-    font-size: 1.6rem;
-  }
-  .headline h1 {
-    font-size: 1rem;
-  }
-  .prom {
-    font-size: 1.4rem;
-  }
-  .left {
-    display: none;
-  }
-  .right img {
-    height: unset;
-  }
-  .right {
-    margin-right: 0;
-  }
-  .linkText {
-    margin-top: 1.2rem;
-  }
+  
+/* -----------END OF RELAY TRACKS ------------------- */
 
-  .linkText h4 {
-    font-size: 1rem;
-  }
+@media only screen and (min-width:434px)
+{
+   
+    
+    .heading h2{
+        font-size: 2.4rem;
+    }
+    .tag h2{
+        font-size: 1rem;
+    }
+
+   .linkText
+   {
+       /* margin-top: 4rem; */
+       font-size: 1rem;
+   }
+   .prom{
+       height: 200px;
+   }
+   .prom h2{
+       font-size: 2.2rem;
+   }
+  
 }
+@media only screen and (min-width:600px)
+{
+    .cardWrapper
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .cardText
+    {
+        height: auto;
+    }
+    .cardText h2{
+        font-size: 1.2rem;
+        /* height: 40px; */
+        padding-bottom: 1rem;
+    }
+    .cardContent button
+    {
+      
+      text-align: center;
+      background-color: #eb7768;
+      border-radius: 2rem;
+      padding: 0.5rem 1.4rem;
+      margin-bottom: 2rem;
+      font-size: 1.2rem;
+      
+    }
+    
+    .cardContent button a{
+      display: inline-block;
+      width: 100%;
+      font-size: 1.2rem;
+    }
+
+}
+@media only screen and (min-width:768px)
+{
+   
+    .cardContent
+    {
+        margin-top: 2rem;
+    }
+    .slider-wrapper
+    {
+        display: none;
+    }
+    .heading h2{
+        font-size: 2.6rem;
+    }
+    .tag h2{
+        font-size: 1.2rem;
+    }
+    .animationText h2
+    {
+        font-size: 1.4rem;
+    }
+    .headline h1{
+        font-size: 1.4rem;
+    }
+    .prom h2{
+        font-size: 2.6rem;
+
+    }
+    .prom{
+        margin-bottom: 4rem;
+    }
+    .linkText h4
+    {
+        font-size: 1rem;
+    }
+
+}
+@media only screen and (min-width:900px)
+{
+  .cardWrapper
+  {
+      grid-template-columns: repeat(3,1fr);
+  }
+    
+}
+  

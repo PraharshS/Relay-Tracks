@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Relay Tracks</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Saira:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 
 <body>
+    
    <div class="main">
        <div class="container">
            <div class="heading">
@@ -27,17 +30,26 @@
           </div>
            </div>
            <div class="headline">
-               <h1>We bring this college experience online, except <br> <span class="orange prom">it's more awesome than even the best colleges</span></h1>
+               <h1>We bring this college experience online, except </h1>
+               <div class="prom">
+                   <h2 class="orange">it's more awesome than even the best colleges</h2>
+               </div>
+            
            </div>
            <div class="linkText">
                <h4>Build a dream career that you deserve, even without a fancy degree!</h4>
                 <div class="downBtn">
-                    <a href="#advantage"><i class="fas fa-chevron-down"></i></a>
+                    <a href="#advantage"><i class="fas fa-chevron-down "></i></a>
                 </div>
            </div>
        </div>
+       <!-- <div class="whatsapp">
+        <a href="#"><i class="fab fa-whatsapp"></i></a> -->
+    </div>
+
+   <div class="space">
+    
    </div>
-   <div class="space"></div>
    <div class="advantage" id="advantage">
        <div class="container">
            <div class="header">
@@ -46,7 +58,58 @@
            <div class="subheader">
             <h2>We host learning tracks that offer the best online learning experience</h2>
            </div>
-           <div class="sliderWrapper">
+           <div class="slider-wrapper">
+            <div class="site-slider ">
+              <div class="slide">
+                  <div class="img">
+                      <img src="./images/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="">
+                  </div>
+                  <div class="slideText">
+                    <h2>Learn actively not passively</h2>
+                       <p>Don’t just watch long videos and attend boring lectures. 
+                        Learn through interactive live sessions, discussions, debates, challenges, competitions and more.
+                        </p>
+                  </div>
+              </div>
+              <div class="slide">
+                  <div class="img">
+                      <img src="./images/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="">
+                  </div>
+                  <div class="slideText">
+                    <h2>Get real work experience</h2>
+                    <p>Master skills that employers need most by completing projects in simulated work-like environments.
+                     </p>
+                  </div>
+              </div>
+              <div class="slide">
+                  <div class="img">
+                      <img src="./images/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="">
+                  </div>
+                  <div class="slideText">
+                    <h2>Obtain personalized guidance</h2>
+                    <p>Receive data-driven feedback on your strengths, weaknesses. 
+                     Learn better, improve your skills, and plan your career the right way.
+                     </p>
+                  </div>
+              </div>
+              <div class="slide">
+                  <div class="img">
+                      <img src="./images/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="">
+                  </div>
+                  <div class="slideText">
+                    <h2> Have fun while learning</h2>
+                       <p>Bored of learning online? Tired of doing it alone? We hear you.
+                        Learn alongside inspiring peers that keep you motivated. Never get bored of learning again.                        
+                        </p>
+                  </div>
+              </div>
+               
+
+
+            </div>
+
+        </div>
+           <!-- <div class="sliderWrapper">
                <div class="left">
                    <div class="textRow activeRow">
                        <h2>Learn actively not passively</h2>
@@ -56,72 +119,113 @@
                    </div>
                    <div class="textRow">
                        <h2>Get real work experience</h2>
-                       <!-- <p>Master skills that employers need most by completing projects in simulated work-like environments.
-                        </p> -->
+                       <p>Master skills that employers need most by completing projects in simulated work-like environments.
+                        </p>
                    </div>
                    <div class="textRow">
                        <h2>Obtain personalized guidance</h2>
-                       <!-- <p>Receive data-driven feedback on your strengths, weaknesses. 
+                       <p>Receive data-driven feedback on your strengths, weaknesses. 
                         Learn better, improve your skills, and plan your career the right way.
-                        </p> -->
+                        </p>
                    </div>
                    <div class="textRow">
                        <h2> Have fun while learning</h2>
-                       <!-- <p>Bored of learning online? Tired of doing it alone? We hear you.
+                       <p>Bored of learning online? Tired of doing it alone? We hear you.
                         Learn alongside inspiring peers that keep you motivated. Never get bored of learning again.                        
-                        </p> -->
+                        </p>
                    </div>
                </div>
                <div class="right">
-                   <img src="./images/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="image">
+                    <div class="sliderimage">
+                        <img src="./images/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="image">
+                    </div>
+                    <div class="sliderimage">
+                        <img src="./images/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="image">
+                    </div>
+                    <div class="sliderimage">
+                        <img src="./images/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="image">
+                    </div>
                </div>
-           </div>
+           </div> -->
        </div>
     </div>
     <div class="space"></div>
-   <div class="tracks">
-       <div class="headerWhite">
-           <h2>The Relay <span class="orange">Tracks</span></h2>
-       </div>
-       <div class="cardWrapper">
+  <div class="container">
+    <div class="tracks">
+        <div class="headerWhite">
+            <h2>The Relay <span class="orange">Tracks</span></h2>
+        </div>
+        <div class="cardWrapper">
+             <div class="card">
+                 <div class="image">
+                     <img src="./images/dataScience.png" alt="">
+                 </div>
+                <div class="cardContent">
+                 <div class="cardText">
+                     <h2>Data Science</h2>
+                     <p>100+ students across <br> best colleges registered</p>
+                 </div>
+                 <button>
+                     <a href="#">View Track</a>
+                 </button>
+                </div>
+             </div>
+            <div class="card">
+                <div class="image image1">
+                    <img src="./images/productManagement.png" alt="">
+                </div>
+               <div class="cardContent">
+                 <div class="cardText">
+                     <h2>Product Management</h2>
+                     <p>Registrations closed</p>
+                 </div>
+                 <button>
+                     <a href="#">View Track</a>
+                 </button>
+               </div>
+            </div>
             <div class="card">
                 <div class="image">
-                    <img src="./images/dataScience.png" alt="">
+                    <img src="./images/managementConsulting.png" alt="">
                 </div>
-                <div class="cardText">
-                    <h2>Data Science</h2>
-                </div>
-                <button>
-                    <a href="#">View Track</a>
-                </button>
+              <div class="cardContent">
+                 <div class="cardText">
+                     <h2>Management Consulting</h2>
+                     <p>Registrations closed</p>
+                 </div>
+                 <button>
+                     <a href="#">View Track</a>
+                 </button>
+              </div>
             </div>
-           <div class="card">
-               <div class="image">
-                   <img src="./images/productManagement.png" alt="">
-               </div>
-               <div class="cardText">
-                   <h2>Product Management</h2>
-               </div>
-               <button>
-                   <a href="#">View Track</a>
-               </button>
-           </div>
-           <div class="card">
-               <div class="image">
-                   <img src="./images/managementConsulting.png" alt="">
-               </div>
-               <div class="cardText">
-                   <h2>Management Consulting</h2>
-               </div>
-               <button>
-                   <a href="#">View Track</a>
-               </button>
-           </div>
-         
-       </div>
+          
+        </div>
+  </div>
    </div>
-    <script src="script.js"></script>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+   <script>
+    
+   </script>
+ 
+
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+   integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+   integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="./script.js"></script>
+   <script>
+   
+  </script>
+   </script>
+</script>
+
 </body>
 
 </html>
