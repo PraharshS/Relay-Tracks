@@ -459,6 +459,77 @@ max-width: 60%;
   {
       grid-template-columns: repeat(3,1fr);
   }
-    
+.heading h2{
+    font-size: 2.8rem;
 }
+.tag{
+    margin-top: 4rem;
+}
+.tag h2{
+    font-size: 1.8rem;
+}
+.animationText
+{
+    margin-bottom: 6rem;
+}
+.animationText h2{
+    font-size: 2.6rem;
+}
+    .headline h1
+    {
+        font-size: 2rem;
+    }
+    .prom h2
+    {
+        font-size: 3rem;
+    }
+    .linkText
+    {
+        margin-top: 4rem;
+
+    }
+}
+@media only screen and (min-width:1100px)
+{
+  .cardWrapper
+  {
+      grid-template-columns: repeat(3,1fr);
+  }
+.heading h2{
+    font-size: 3rem;
+}
+.tag{
+    margin-top: 5rem;
+}
+.tag h2{
+    font-size: 1.8rem;
+}
+.animationText
+{
+    margin-bottom: 6rem;
+}
+.animationText h2{
+    font-size: 2.6rem;
+}
+    .headline h1
+    {
+        font-size: 2.4rem;
+    }
+    .prom h2
+    {
+        font-size: 4rem;
+    }
+    .linkText
+    {
+        margin-top: 4rem;
+
+    }
+    .linkText h4{
+        font-size: 2rem;
+    }
+    .downBtn a i{
+        font-size: 2rem;
+    }
+}
+  
   
