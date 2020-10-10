@@ -73,9 +73,11 @@ a,a:focus{
   letter-spacing: 0.15rem;
 }
 .animationText {
+  position: absolute;
   margin-top: 0.8rem;
-  height: 50px;
+  /* height: 50px; */
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
 }
 .animationText h2 {
