@@ -166,7 +166,7 @@ margin: auto;
     padding: 2rem;
     font-family: Avenir LT;
     font-weight: normal;
-    font-size: 3rem;
+    font-size: 1.6rem;
     text-align: center;
     color: white;
 }
@@ -529,7 +529,7 @@ max-width: 60%;
         display: none;
     }
     .heading h2{
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
     .tag h2{
         font-size: 1.2rem;
