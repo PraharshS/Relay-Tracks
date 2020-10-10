@@ -33,7 +33,7 @@
   {
       height: 100px;
       width: 100%;
-      background-color: lightseagreen;
+      background-color: #292828;
   }
   .container
   {
@@ -166,14 +166,16 @@ margin: auto;
 .subheader h2{
     color: white;
     font-family: Roboto;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: normal;
     text-align: center;
+    letter-spacing: 1px;
 }
  /* ------------------SLIDER -------------------- */
  .slider-wrapper {
     height: auto;
-
+    max-width: 400px;
+    margin: auto;
     margin-bottom: 3rem;
   }
   .site-slider {
@@ -267,8 +269,13 @@ max-width: 60%;
   .slick-dots .slick-active button:focus{
       outline: none;
   }
+  .sliderWrapperBig{
+      display: none;
+  }
    /* ------------------END OF SLIDER -------------------- */
-   
+   /* BIG SLIDER  */
+
+   /* BIG SLIDER  */
 /* -----------END OF RELAY ADVANTAGE ------------------- */
 .headerWhite{
     margin: 2rem 0;
@@ -416,9 +423,78 @@ max-width: 60%;
     }
 
 }
+
 @media only screen and (min-width:768px)
 {
-   
+   .sliderWrapperBig
+   {
+       
+       display: block;
+       display: flex;
+       padding-top: 3rem;
+       margin: 6rem auto 0 auto;
+       justify-content: space-between;
+       align-items: center;
+       height: 50vh;
+       max-width: 1000px;
+
+   }
+   .textRow p{
+       display: none;
+   }
+   .activeP{
+    display: block !important;
+    }
+   .textRow h2
+   {
+    font-family: Roboto;
+    font-size: 1.2rem;
+    font-weight: normal;
+   }
+   .textRow p{
+       margin-top: 1rem;
+       font-size: 1.2rem;
+       letter-spacing: 1px;
+   }
+   .right
+   {
+       /* padding-top: 2rem; */
+       height: 120%;
+       display: flex;
+       width: 40%;
+   }
+   .right img{
+       
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+
+   }
+   .left{
+       width: 45%;
+       display: flex;
+       flex-direction: column;
+   }
+   .textRow
+   {
+       background-color: white;
+       margin: 1rem 1rem;
+       border-radius: 2rem;
+       padding: 1.5rem 1rem;
+   }
+   .activeRow
+   {
+       background-color: #5E5E5E;
+       
+   }
+   .activeRow h2{
+       color: white;
+   }
+   .activeRow p{
+       color: white;
+       
+   }
+ 
     .cardContent
     {
         margin-top: 2rem;

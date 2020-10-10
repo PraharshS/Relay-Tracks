@@ -1,7 +1,34 @@
+var row = document.querySelector(".left");
+console.log(row.children[0].classList);
+setInterval(() => {
+  for (let index = 0; index < row.children.length; index++) {
+    for (let j = 0; j < row.children.length; j++) {
+      if (j == index) {
+        // console.log(j);
+        row.children[j].classList.add("activeRow");
+        row.children[j].lastElementChild.classList.add("activeP");
+      } else {
+        row.children[j].classList.remove("activeRow");
+        row.children[j].lastElementChild.classList.remove("activeP");
+      }
+    }
+  }
+}, 3000);
+row.children[2].lastElementChild.classList.remove("activeP");
+
 $(".site-slider").not(".slick-initialized").slick({
   autoplay: true,
   autoplaySpeed: 3000,
   dots: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow: ".site-slider .slider-btn .prev",
+  nextArrow: ".site-slider .slider-btn .next",
+});
+$(".right").not(".slick-initialized").slick({
+  autoplay: true,
+  autoplaySpeed: 3000,
+  // dots: true,
   slidesToShow: 1,
   slidesToScroll: 1,
   prevArrow: ".site-slider .slider-btn .prev",
