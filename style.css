@@ -35,9 +35,9 @@
   }
   .space
   {
-      height: 100px;
+      height: 150px;
       width: 100%;
-      background-color: #292828;
+      background-color: #fff;
   }
   .container
   {
@@ -159,14 +159,14 @@ margin: auto;
     background-color: #292828;
 }
 .header{
-    margin: 2rem 0;
+    margin: 1rem 0;
     /* margin-bottom: 2rem; */
 }
 .header h2{
     padding: 2rem;
     font-family: Avenir LT;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: white;
 }
@@ -288,6 +288,10 @@ max-width: 60%;
 
    /* BIG SLIDER  */
 /* -----------END OF RELAY ADVANTAGE ------------------- */
+.tracks
+{
+    height: 100vh;
+}
 .headerWhite{
     margin: 2rem 0;
     /* margin-bottom: 2rem; */
@@ -296,7 +300,7 @@ max-width: 60%;
     padding: 2rem;
     font-family: Avenir LT !important;
     font-weight: normal;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     color: #292828;
 }
@@ -402,6 +406,13 @@ max-width: 60%;
 }
 @media only screen and (min-width:600px)
 {
+    .header h2{
+        font-size: 4rem;
+
+    }
+    .headerWhite h2{
+        font-size: 4rem;
+    }
     .cardWrapper
     {
         grid-template-columns: repeat(2,1fr);
@@ -493,7 +504,7 @@ max-width: 60%;
    {
        background-color: white;
        margin: 1rem 1rem;
-       border-radius: 2rem;
+       border-radius: 1.5rem;
        padding: 1.5rem 1rem;
    }
    .activeRow
